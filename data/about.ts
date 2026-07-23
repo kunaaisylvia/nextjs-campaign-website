@@ -1,17 +1,18 @@
 export const about = {
-  badge: "Meet the Leader",
+  badge: "About Katoo Ole Metito",
 
-  title: "Leadership Rooted in Service",
+  title: "A Lifetime of Service",
 
   description:
-    "Judah Katoo Ole Metito has dedicated more than two decades to public service, representing Kajiado South in Parliament, serving in national leadership positions, and currently serving as the State House Comptroller. His leadership has focused on public administration, development, and strengthening institutions while remaining closely connected to the people of Kajiado.",
+    "For over two decades, Judah Katoo Ole Metito has devoted his life to public service, earning the trust of Kenyans through principled leadership and a steadfast commitment to national and community development. From representing Kajiado South in Parliament to serving in Cabinet, providing leadership as Majority Chief Whip, and currently serving as State House Comptroller, his journey reflects a lifetime of experience, integrity, and dedication to public service. Today, he seeks to bring that wealth of experience home to Kajiado with a vision of inclusive growth, accountable governance, and lasting prosperity for every community.",
 
   highlights: [
     "State House Comptroller",
-    "Former Member of Parliament for Kajiado South",
-    "Former Minister for Provincial Administration & Internal Security",
     "Former Majority Chief Whip, National Assembly",
+    "Former Minister of State for Provincial Administration & Internal Security",
+    "Served the people of Kajiado South in Parliament for nearly two decades",
+    "Committed to transparent, accountable, and people-centered leadership",
   ],
 
-  button: "Read Full Biography",
+  button: "Explore Leadership Journey",
 };

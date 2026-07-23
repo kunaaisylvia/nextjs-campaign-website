@@ -27,20 +27,26 @@ export default function Hero() {
         </p>
 
         <div className="flex flex-col justify-center gap-4 sm:flex-row">
-          <Button
-            size="lg"
-            className="bg-[#C7A65B] px-8 py-6 text-black hover:bg-[#d8b86f]"
-          >
-            Explore the Vision
-          </Button>
 
-          <Button
-            size="lg"
-            variant="outline"
-            className="border-white bg-transparent px-8 py-6 text-white hover:bg-white hover:text-black"
-          >
-            Meet Katoo
-          </Button>
+          <a href="#vision">
+            <Button
+              size="lg"
+              className="bg-[#C7A65B] px-8 py-6 text-black transition-all duration-300 hover:-translate-y-1 hover:bg-[#d8b86f] hover:shadow-xl"
+            >
+              Explore the Vision
+            </Button>
+          </a>
+
+          <a href="#about">
+            <Button
+              size="lg"
+              variant="outline"
+              className="border-white bg-transparent px-8 py-6 text-white transition-all duration-300 hover:-translate-y-1 hover:bg-white hover:text-black hover:shadow-xl"
+            >
+              Meet Katoo
+            </Button>
+          </a>
+
         </div>
       </div>
     </section>
