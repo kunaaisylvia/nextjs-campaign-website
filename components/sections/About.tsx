@@ -1,5 +1,7 @@
 import Image from "next/image";
+import Link from "next/link";
 import { ArrowRight } from "lucide-react";
+
 import { Button } from "@/components/ui/button";
 import { about } from "@/data/about";
 
@@ -46,7 +48,7 @@ export default function About() {
                 key={item}
                 className="flex items-center gap-4 rounded-xl bg-white p-4 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md"
               >
-                <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#0B3D2E] text-white">
+                <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#0B3D2E] font-bold text-white">
                   ✓
                 </span>
 
@@ -57,17 +59,18 @@ export default function About() {
             ))}
           </ul>
 
-          <a href="#journey">
+          {/* Leadership Journey Button */}
+          <Link href="/leadership">
             <Button
               size="lg"
               className="group bg-[#0B3D2E] px-8 py-6 text-white transition-all duration-300 hover:-translate-y-1 hover:bg-[#14523D] hover:shadow-xl"
             >
               <span className="flex items-center gap-2">
-                {about.button}
+                Explore Leadership Journey
                 <ArrowRight className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
               </span>
             </Button>
-          </a>
+          </Link>
         </div>
       </div>
     </section>

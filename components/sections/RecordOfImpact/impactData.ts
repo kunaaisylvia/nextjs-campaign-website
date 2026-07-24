@@ -1,38 +1,44 @@
-import {
-  Users,
-  Landmark,
-  Shield,
-  BriefcaseBusiness,
-} from "lucide-react";
+import { ImpactData } from "./types";
 
-export const impact = {
-  badge: "Record of Impact",
+export const impactData: ImpactData = {
+  badge: "RECORD OF IMPACT",
 
   title: "Leadership That Delivers",
 
   description:
-    "More than two decades of dedicated public service marked by leadership, integrity, and a commitment to improving the lives of Kenyans through effective governance and national service.",
+    "For more than two decades, Katoo Ole Metito has served Kenya with integrity, leadership, and a steadfast commitment to public service. His record reflects experience at the highest levels of government and a dedication to improving the lives of the people of Kajiado.",
 
-  items: [
+  stats: [
     {
-      icon: Users,
+      icon: "users",
       value: "20+",
-      title: "Years of Public Service",
+      label: "Years of Public Service",
+      description:
+        "Over two decades serving the people of Kenya in various leadership capacities.",
     },
+
     {
-      icon: Landmark,
+      icon: "landmark",
       value: "4",
-      title: "Terms as Member of Parliament",
+      label: "Senior National Leadership Roles",
+      description:
+        "Served as Member of Parliament, Cabinet Minister, Majority Chief Whip, and State House Comptroller.",
     },
+
     {
-      icon: Shield,
+      icon: "shield",
       value: "National",
-      title: "Leadership Experience",
+      label: "Leadership Experience",
+      description:
+        "Trusted with responsibilities at the highest levels of national government.",
     },
+
     {
-      icon: BriefcaseBusiness,
+      icon: "briefcase",
       value: "Current",
-      title: "State House Comptroller",
+      label: "State House Comptroller",
+      description:
+        "Currently overseeing administration and operations at the Office of the President.",
     },
   ],
 };
