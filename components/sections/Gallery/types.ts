@@ -1,13 +1,14 @@
-export interface GalleryItem {
-  image: string;
+export interface GalleryImage {
+  id: number;
   title: string;
   category: string;
-  date: string;
+  image: string;
+  location: string;
 }
 
 export interface GalleryData {
   badge: string;
   title: string;
   description: string;
-  images: GalleryItem[];
+  images: GalleryImage[];
 }
