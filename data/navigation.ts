@@ -8,8 +8,8 @@ export const navigation = [
     href: "#vision",
   },
   {
-    label: "Achievements",
-    href: "#achievements",
+    label:  "Record of Impact",
+    href: "#impact",
   },
   {
     label: "Manifesto",
